@@ -22,6 +22,7 @@ public class CardatabaseApplication implements CommandLineRunner {
 	private final OwnerRepository orepository;
 	private final AppUserRepository urepository;
 	
+	// Constructor
 	public CardatabaseApplication(CarRepository repository,
 								  OwnerRepository orepository,
 								  AppUserRepository urepository)
